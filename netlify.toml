@@ -1,0 +1,748 @@
+# Static site. Deploys happen only when main is pushed.
+# Do not add a redirect from / that keys off a query string.
+# Query strings are forwarded on 301s, so /?p= or /?s= back to /
+# would loop the homepage.
+
+[build]
+  publish = "."
+  command = ""
+
+[[redirects]]
+  from = "/About-Us"
+  to = "/about-us/"
+  status = 301
+
+[[redirects]]
+  from = "/About-Us/"
+  to = "/about-us/"
+  status = 301
+
+[[redirects]]
+  from = "/Get-A-Quote"
+  to = "/get-a-quote/"
+  status = 301
+
+[[redirects]]
+  from = "/Get-A-Quote/"
+  to = "/get-a-quote/"
+  status = 301
+
+[[redirects]]
+  from = "/Terms-Of-Use"
+  to = "/terms-of-use/"
+  status = 301
+
+[[redirects]]
+  from = "/Terms-Of-Use/"
+  to = "/terms-of-use/"
+  status = 301
+
+[[redirects]]
+  from = "/Privacy-Policy"
+  to = "/privacy-policy/"
+  status = 301
+
+[[redirects]]
+  from = "/Privacy-Policy/"
+  to = "/privacy-policy/"
+  status = 301
+
+[[redirects]]
+  from = "/index.php"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/feed"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/feed/"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/comments/feed"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/comments/feed/"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/wp-login.php"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/xmlrpc.php"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/wp-cron.php"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/wp-signup.php"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/wp-trackback.php"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/wp-admin"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/hello-world"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/hello-world/"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/category/uncategorized"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/category/uncategorized/"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/wp-sitemap.xml"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/wp-sitemap.xsl"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/wp-sitemap-index.xsl"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/wp-sitemap-posts-page-1.xml"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/wp-sitemap-posts-wpautoterms_page-1.xml"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/feed/*"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/comments/feed/*"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/wp-json"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/wp-json/*"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/wp-admin/*"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/wp-includes/*"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2023/08/CTIEastCoast-300x59.png"
+  to = "/images/CTIEastCoast.png"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2023/08/Commercial_0031-300x225.webp"
+  to = "/images/Commercial_0031.webp"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2023/08/patios_006-1-300x225.webp"
+  to = "/images/patios_006-1.webp"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2023/08/DECORATIVECONCRETE1-300x225.webp"
+  to = "/images/DECORATIVECONCRETE1.webp"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2023/08/driveways_008-1-300x225.webp"
+  to = "/images/driveways_008-1.webp"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2023/08/driveways_012-225x300.webp"
+  to = "/images/driveways_012.webp"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2023/08/pools_012-1-300x225.webp"
+  to = "/images/pools_012-1.webp"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2023/08/Commercial_006-300x225.webp"
+  to = "/images/Commercial_006.webp"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2023/08/Commercial_002-300x225.webp"
+  to = "/images/Commercial_002.webp"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2023/08/walkways_011-225x300.webp"
+  to = "/images/walkways_011.webp"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2023/08/Commercial_012-300x171.webp"
+  to = "/images/Commercial_012.webp"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2023/08/Commercial_016-300x225.webp"
+  to = "/images/Commercial_016.webp"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2023/08/walkways_009-1-300x225.webp"
+  to = "/images/walkways_009-1.webp"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2023/08/pools_017-300x227.webp"
+  to = "/images/pools_017.webp"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2023/08/Commercial_008-1-300x225.webp"
+  to = "/images/Commercial_008-1.webp"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2023/08/walkways_001-300x200.webp"
+  to = "/images/walkways_001.webp"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2023/08/driveways_006-225x300.webp"
+  to = "/images/driveways_006.webp"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2023/08/pools_010-300x226.webp"
+  to = "/images/pools_010.webp"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2023/08/patios_014-300x225.webp"
+  to = "/images/patios_014.webp"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2023/08/pools_007-1-300x225.webp"
+  to = "/images/pools_007-1.webp"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2023/08/walkways_010-300x225.webp"
+  to = "/images/walkways_010.webp"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2023/08/Commercial_018-300x204.webp"
+  to = "/images/Commercial_018.webp"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2023/08/pools_004-300x223.webp"
+  to = "/images/pools_004.webp"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2023/08/driveways_014-225x300.webp"
+  to = "/images/driveways_014.webp"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2023/08/driveways_009-1-300x225.webp"
+  to = "/images/driveways_009-1.webp"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2023/08/Commercial_003-300x225.webp"
+  to = "/images/Commercial_003.webp"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2023/08/patios_001-300x225.webp"
+  to = "/images/patios_001.webp"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2023/08/pools_019-300x225.webp"
+  to = "/images/pools_019.webp"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2023/08/Commercial_021-1-300x205.webp"
+  to = "/images/Commercial_021-1.webp"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2023/08/pools_005-1-300x200.webp"
+  to = "/images/pools_005-1.webp"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2023/08/pools_001-300x200.webp"
+  to = "/images/pools_001.webp"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2023/08/driveways_015-225x300.webp"
+  to = "/images/driveways_015.webp"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2023/08/walkways_007-300x225.webp"
+  to = "/images/walkways_007.webp"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2023/08/pools_014-300x225.webp"
+  to = "/images/pools_014.webp"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2023/08/walkways_015-203x300.webp"
+  to = "/images/walkways_015.webp"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2023/08/Commercial_011-300x225.webp"
+  to = "/images/Commercial_011.webp"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2023/08/walkways_002-300x225.webp"
+  to = "/images/walkways_002.webp"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2023/08/Commercial_004-300x225.webp"
+  to = "/images/Commercial_004.webp"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2023/08/walkways_008-1-300x225.webp"
+  to = "/images/walkways_008-1.webp"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2023/08/Commercial_007-300x200.webp"
+  to = "/images/Commercial_007.webp"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2023/08/walkways_013-300x200.webp"
+  to = "/images/walkways_013.webp"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2023/08/pools_016-300x225.webp"
+  to = "/images/pools_016.webp"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2023/08/Commercial_015-300x200.webp"
+  to = "/images/Commercial_015.webp"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2023/08/patios_008-300x225.webp"
+  to = "/images/patios_008.webp"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2023/08/pools_015-300x225.webp"
+  to = "/images/pools_015.webp"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2023/08/patios_003-300x225.webp"
+  to = "/images/patios_003.webp"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2023/08/pools_013-1-300x225.webp"
+  to = "/images/pools_013-1.webp"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2023/08/Commercial_010-300x225.webp"
+  to = "/images/Commercial_010.webp"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2023/08/Commercial_005-300x189.webp"
+  to = "/images/Commercial_005.webp"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2023/08/Commercial_014-300x225.webp"
+  to = "/images/Commercial_014.webp"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2023/08/pools_011-300x225.webp"
+  to = "/images/pools_011.webp"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2023/08/patios_002-300x225.webp"
+  to = "/images/patios_002.webp"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2023/08/pools_008-300x227.webp"
+  to = "/images/pools_008.webp"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2023/08/patios_007-300x200.webp"
+  to = "/images/patios_007.webp"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2023/08/walkways_006-300x225.webp"
+  to = "/images/walkways_006.webp"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2023/08/driveways_011-300x225.webp"
+  to = "/images/driveways_011.webp"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2023/08/pools_018-300x225.webp"
+  to = "/images/pools_018.webp"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2023/08/driveways_005-300x225.webp"
+  to = "/images/driveways_005.webp"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2023/08/patios_016-300x225.webp"
+  to = "/images/patios_016.webp"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2023/08/patios_005-1-300x225.webp"
+  to = "/images/patios_005-1.webp"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2023/08/Commercial_009-1-300x225.webp"
+  to = "/images/Commercial_009-1.webp"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2023/08/patios_013-300x200.webp"
+  to = "/images/patios_013.webp"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2023/08/driveways_002-225x300.webp"
+  to = "/images/driveways_002.webp"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2023/08/patios_015-300x225.webp"
+  to = "/images/patios_015.webp"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2023/08/Commercial_020-1-300x225.webp"
+  to = "/images/Commercial_020-1.webp"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2023/08/pools_020-300x225.webp"
+  to = "/images/pools_020.webp"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2023/08/walkways_005-300x200.webp"
+  to = "/images/walkways_005.webp"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2023/08/driveways_016-225x300.webp"
+  to = "/images/driveways_016.webp"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2023/08/patios_010-1-300x200.webp"
+  to = "/images/patios_010-1.webp"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2023/08/pools_002-300x202.webp"
+  to = "/images/pools_002.webp"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2023/08/walkways_003-300x278.webp"
+  to = "/images/walkways_003.webp"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2023/08/pools_006-1-300x225.webp"
+  to = "/images/pools_006-1.webp"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2023/08/walkways_004-300x225.webp"
+  to = "/images/walkways_004.webp"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2023/08/patios_004-1-300x225.webp"
+  to = "/images/patios_004-1.webp"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2023/08/Commercial_013-300x225.webp"
+  to = "/images/Commercial_013.webp"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2023/08/patios_009-300x200.webp"
+  to = "/images/patios_009.webp"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2023/08/driveways_001-225x300.webp"
+  to = "/images/driveways_001.webp"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2023/08/patios_012-1-300x171.webp"
+  to = "/images/patios_012-1.webp"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2023/08/walkways_012-300x225.webp"
+  to = "/images/walkways_012.webp"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2023/08/walkways_014-300x225.webp"
+  to = "/images/walkways_014.webp"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2023/08/Commercial_017-300x225.webp"
+  to = "/images/Commercial_017.webp"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2023/08/Commercial_001-300x225.webp"
+  to = "/images/Commercial_001.webp"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2023/08/Commercial_019-300x225.webp"
+  to = "/images/Commercial_019.webp"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2023/08/patios_011-1-300x225.webp"
+  to = "/images/patios_011-1.webp"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2023/08/driveways_004-300x225.webp"
+  to = "/images/driveways_004.webp"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2023/08/pools_009-300x225.webp"
+  to = "/images/pools_009.webp"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2023/08/driveways_003-225x300.webp"
+  to = "/images/driveways_003.webp"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2023/08/pools_003-300x202.webp"
+  to = "/images/pools_003.webp"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2023/08/CONCRETESEALING1-300x225.webp"
+  to = "/images/CONCRETESEALING1.webp"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2023/10/Screen-Shot-2023-10-06-at-4.25.02-PM-300x225.webp"
+  to = "/images/Screen-Shot-2023-10-06-at-4.25.02-PM.webp"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2023/10/Screen-Shot-2023-10-06-at-4.25.02-PM-1536x1150.webp"
+  to = "/images/Screen-Shot-2023-10-06-at-4.25.02-PM.webp"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2023/10/Screen-Shot-2023-10-06-at-4.25.02-PM-1024x767.webp"
+  to = "/images/Screen-Shot-2023-10-06-at-4.25.02-PM.webp"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2023/10/Screen-Shot-2023-10-06-at-4.25.02-PM-768x575.webp"
+  to = "/images/Screen-Shot-2023-10-06-at-4.25.02-PM.webp"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2024/02/DesignerSeries_Product_1776w-300x203.webp"
+  to = "/images/DesignerSeries_Product_1776w.webp"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2024/02/DesignerSeries_Product_1776w-1024x692.webp"
+  to = "/images/DesignerSeries_Product_1776w.webp"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2023/08/REFLECTIVEFLOORING1-1-300x225.webp"
+  to = "/images/REFLECTIVEFLOORING1-1.webp"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2024/02/DesignerSeries_Product_1776w-768x519.webp"
+  to = "/images/DesignerSeries_Product_1776w.webp"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2024/02/DesignerSeries_Product_1776w-1536x1038.webp"
+  to = "/images/DesignerSeries_Product_1776w.webp"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2023/08/CONCRETERESTORATION11-300x225.webp"
+  to = "/images/CONCRETERESTORATION11.webp"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2023/08/CONCRETECOATING1-300x225.webp"
+  to = "/images/CONCRETECOATING1.webp"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2023/08/CONCRETESTAINING1-300x225.webp"
+  to = "/images/CONCRETESTAINING1.webp"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2024/02/CONCRETEREPAIR1-300x225.webp"
+  to = "/images/CONCRETEREPAIR1.webp"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2023/08/BeforeAndAfter-300x112.webp"
+  to = "/images/BeforeAndAfter.webp"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2023/08/REFLECTIVEFLOORING1-300x225.webp"
+  to = "/images/REFLECTIVEFLOORING1.webp"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2023/08/:file"
+  to = "/images/:file"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2023/10/:file"
+  to = "/images/:file"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2024/02/Spraymark_Product_1920w-300x225.webp"
+  to = "/images/Spraymark_Product_1920w.webp"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2024/02/Spraymark_Product_1920w-768x576.webp"
+  to = "/images/Spraymark_Product_1920w.webp"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2024/02/Spraymark_Product_1920w-1024x768.webp"
+  to = "/images/Spraymark_Product_1920w.webp"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2024/02/Spraymark_Product_1920w-1536x1152.webp"
+  to = "/images/Spraymark_Product_1920w.webp"
+  status = 301
+
+[[redirects]]
+  from = "/wp-content/uploads/2024/02/:file"
+  to = "/images/:file"
+  status = 301
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=(), payment=()"
+    Strict-Transport-Security = "max-age=31536000"
+    Content-Security-Policy-Report-Only = "default-src 'self'; base-uri 'self'; object-src 'none'; frame-src https://www.youtube.com https://www.youtube-nocookie.com https://form.jotform.com; frame-ancestors 'none'; form-action 'self'; img-src 'self'; font-src 'self'; style-src 'self'; script-src 'self'; connect-src 'self'"
+
+[[headers]]
+  for = "/images/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
